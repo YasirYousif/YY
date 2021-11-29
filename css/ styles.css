@@ -1,0 +1,86 @@
+.body{
+  font-family: "Montserrat";
+}
+#title{
+    background-color:#E0FFFF;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.h1{
+  font: "Montserrat";
+  size: 3.5rem;
+  line-height: 1.5;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.class1 il a {
+  color: black;
+}
+
+/* Pictures */
+.profile-pic{
+  position:relative;
+  left: 220px;
+}
+
+/* Gallery Section */
+
+#gallery{
+  text-align: center;
+  background-color:#cccccc;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  }
+
+.gallery-image{
+  width: 320px;
+  length: 520px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  text-align: center;
+  background-color: #E0FFFF;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+
+/* Footer Section */
+#footer{
+  padding: 7% 15%;
+  text-align:center;
+}
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .profile-pic{
+    position: static;
+    transform:rotate(0);
+  }
+
+}
